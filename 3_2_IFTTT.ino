@@ -48,5 +48,5 @@ void loop(){
     Particle.publish("Light", light, PRIVATE);
     Serial.printlnf("The sunlight reading is: %d ",analogValue);
     
-    delay(1000*5);
+    delay(1000*30);
 }
